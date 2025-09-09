@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 function ProductList({ onHomeClick }) {
     const [showCart, setShowCart] = useState(false);
     const [showPlants, setShowPlants] = useState(false); // State to control the visibility of the About Us page
-    const [addedToCart, setAddedToCart] = useState({}); // Products Added to Cart
+    const [addedToCart, setAddedToCart] = useState(false); // Products Added to Cart
 
     const plantsArray = [
         {
